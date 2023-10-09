@@ -32,7 +32,6 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Beranda::index');
 $routes->get('/detail', 'Detail::index');
 $routes->get('/cart', 'Cart::index');
-$routes->get('/cart2', 'Cart::index');
 $routes->get('/checkout', 'Checkout::index');
 $routes->get('/dashboard', 'Dashboard::index');
 $routes->get('/kategori', 'Kategori::index');
